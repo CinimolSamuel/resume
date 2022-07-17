@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    
+}
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    min-height: 1100px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.container .left-side{
+    position: relative;
+    background: #071a22;
+    padding: 40px;
+}
+.profile-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+
+}
+.profile-text .imgbx{
+    position: relative;
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+.profile-text .imgbx img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contactinfo{
+    padding-top: 15px;
+}
+.title{
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contactinfo ul{
+    position: relative;
+}
+.contactinfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+    line-height: 23px;
+}
+.contactinfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+.contactinfo ul li span{
+    color: white;
+    font-weight: 300;
+}
+.contactinfo-skills{
+    margin-bottom: 15px;
+}
+.l{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.l span{
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.contactinfo-skills .percent{
+    line-height: 25px;
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #2e4f5e;
+    display: block;
+    margin-top: 5px;
+}
+.contactinfo-skills .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+.contactinfo-lang{
+    margin-bottom: 15px;
+}
+.l1{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.l1 span{
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.contactinfo-lang .percent1{
+    line-height: 25px;
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #2e4f5e;
+    display: block;
+    margin-top: 5px;
+}
+.contactinfo-lang .percent1 div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+/* right side  */
+
+.container .right-side{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+    
+}
+.head-name{
+    padding-top: 30px;
+    padding-left:5px;
+    line-height: 40px;
+    position: relative;
+    color:#003147;
+
+}
+.head-name .p{ch
+    line-height: 5px;
+    position: relative;
+    width: 15%;
+    height: 2px;
+    background: #071a22;
+    display:block;
+    margin-top: 5px;
+}
+.about{
+    margin-bottom: 30px;
+}
+.title2{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p{
+    color: #333;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.title3{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+h4{
+    color: #333;
+    font-size: 18px;
+}
+
+b{
+    color: #333;
+    font-size: 18px;
+}
+.title4{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p{
+    color: #333;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.title5{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
